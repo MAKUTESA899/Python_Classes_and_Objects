@@ -4,6 +4,7 @@ import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from exercises.exercise3_book import Book
 
+# this fixture will automatically be invoked before each test function in the module is run
 @pytest.fixture(autouse=True)
 def reset_book_count():
     # Reset the book count before each test
