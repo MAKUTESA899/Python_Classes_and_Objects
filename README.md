@@ -1,4 +1,5 @@
 # Python Classes and Objects
+- Fill in your solutions in the files in the exercises folder
 ## Exercise1: Creating a `Person` Class
 ### Task
 1. Create a class `Person` with the following attributes

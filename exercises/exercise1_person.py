@@ -1,7 +1,8 @@
 class Person:
     def __init__(self, name, age):
-        self.name = name
-        self.age = age
+        pass
+        # Check readme file for full description
 
     def greet(self):
-        return f"Hello, my name is {self.name}!"
+        pass
+        # Check readme file for full description
