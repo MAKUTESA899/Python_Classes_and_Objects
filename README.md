@@ -1,5 +1,5 @@
 # Python Classes and Objects
-- Fill in your solutions in the files in the exercises folder
+- Fill in your solutions in the files in the <a name="exercises">exercises</a> folder
 
 ## Table of Contents
 
@@ -7,7 +7,8 @@
 2. [pytest](#pytest)
 3. [pipenv_and_pipenv shell](#pipenv_and_pipenv_shell)
 4. [types_of_errors_and_forking_a_repository](#types_of_errors_and_forking_a_repository)
-5. [exercises](#exercises)
+5. [forking_a_repository](#forking-a-repository)
+6. [exercises](#exercises)
 # Notes 
 ### Python's `unittest` Framework<a name="unittest"></a>
 
@@ -50,7 +51,7 @@
       unittest.main()
   ```
 
-### `pytest`
+### `pytest` <a name="pytest"></a>
 
 - **Overview**:
   - `pytest` is a more advanced testing framework compared to `unittest`.
@@ -77,7 +78,7 @@
       assert not sample_string.isupper()
   ```
 
-### `pipenv` and `pipenv shell`
+### `pipenv` and `pipenv shell` <a name="pipenv_and_pipenv_shell"></a>
 
 - **Overview**:
   - `pipenv` is a tool that combines `pip` and `virtualenv` to provide a comprehensive package management solution.
@@ -147,7 +148,7 @@
 5. **Deactivate the Environment**:
    - Simply type `exit` to exit the shell.
 
-### Forking a Repository
+### Forking a Repository<a name="forking-a-repository"></a>
 
 - **Forking**:
   - Forking is creating a personal copy of someone else's repository on GitHub.
@@ -173,7 +174,7 @@
 By understanding these tools and processes, you can create robust Python projects, manage dependencies effectively, and contribute to open-source projects confidently.
 
 
-## Exercise1: Creating a `Person` Class
+## Exercise1: Creating a `Person` Class<a name="exercises"><a>
 ### Task
 1. Create a class `Person` with the following attributes
     - `name` (string)
