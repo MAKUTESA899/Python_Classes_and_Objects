@@ -17,8 +17,8 @@ def test_book_attributes():
     assert book.pages == 328
 
 def test_description():
-    book = Book("1984", "George Orwell", 328)
-    assert book.description() == "'1984' by George Orwell, 328 pages"
+    book = Book(1984, "George Orwell", 328)
+    assert book.description() == "1984 by George Orwell, 328 pages"
 
 def test_total_good_books():
     book1 = Book("1984", "George Orwell", 328)

@@ -1,9 +1,12 @@
 class BankAccount:
     def __init__(self, account_number):
-        pass
+        self.account_number=account_number
+        self.balance = 0.0
 
     def deposit(self, amount):
-        pass
+        self.balance += amount
 
     def withdraw(self, amount):
-        pass
+        if amount > self.balance:
+            raise ValueError("Insufficient funds")
+        self.balance -= amount
